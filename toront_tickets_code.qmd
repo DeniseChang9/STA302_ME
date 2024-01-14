@@ -6,7 +6,7 @@ editor: visual
 
 ```{r}
 #### Preamble ####
-# Purpose: Get data on ticket and make a table for the amount of tickets issued per year from 2014 to 2022
+# Purpose: Get data on ticket and make a table for the average amount of tickets issued per day from 2014 to 2022
 # Author: Denise Chang
 # Email: ddleletan@hotmail.com
 # Date: 14 January 2024
@@ -39,7 +39,12 @@ toronto_tickets_clean <-
   clean_names(toronto_tickets)|>
   select(offence_year, ticket_count) |>
   group_by(offence_year) |>
-  summarise(ticket_count = sum(ticket_count))
+  summarise(ticket_count = sum(ticket_count)) |>
+  mutate(
+    daily_avg_ticket_count = round((ticket_count / 365), 2)) |> 
+  select(offence_year, daily_avg_ticket_count)
+
+# head(toronto_tickets_clean)
 
 write_csv(
   x = toronto_tickets_clean,
@@ -57,8 +62,7 @@ toronto_tickets_clean <-
 
 toronto_tickets_clean |>
   kable(
-    col.names = c("Year", "Average daily number of occupied beds"),
+    col.names = c("Year", "Average daily number of tickets issued"),
     digits = 1
   )
 ```
-
