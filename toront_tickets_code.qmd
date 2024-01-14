@@ -34,15 +34,31 @@ write_csv(
   file = "toronto_tickets.csv"
 )
 
-head(toronto_tickets)
-
+# cleaning the data by extracting the number of tickets per offence year
 toronto_tickets_clean <-
   clean_names(toronto_tickets)|>
   select(offence_year, ticket_count) |>
   group_by(offence_year) |>
   summarise(ticket_count = sum(ticket_count))
 
-toronto_tickets_clean
+write_csv(
+  x = toronto_tickets_clean,
+  file = "cleaned_toronto_tickets.csv"
+)
 ```
 
-\`\`\`{r}
+```{r}
+#### Explore ####
+toronto_tickets_clean <-
+  read_csv(
+    "cleaned_toronto_tickets.csv",
+    show_col_types = FALSE
+  )
+
+toronto_tickets_clean |>
+  kable(
+    col.names = c("Year", "Average daily number of occupied beds"),
+    digits = 1
+  )
+```
+
