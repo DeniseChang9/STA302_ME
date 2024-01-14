@@ -3,8 +3,7 @@ title: "ME2"
 format: html
 editor: visual
 ---
-
-```{r, eval: false}
+  
 #| eval: false
 #### Preamble ####
 # Purpose: Get data on ticket and make a table for the average amount of tickets issued per day from 2014 to 2022
@@ -25,9 +24,7 @@ use_git_config(
   user.name = "Denise Chang",
   user.email = "ddleletan@hotmail.com"
 )
-```
 
-```{r}
 #### Acquire ####
 # from # https://open.toronto.ca/dataset/police-annual-statistical-report-tickets-issued/
 
@@ -60,9 +57,7 @@ write_csv(
 )
 
 head(toronto_tickets_clean)
-```
 
-```{r}
 #### Explore ####
 ## Build dataset ##
 toronto_tickets_clean <-
@@ -76,9 +71,7 @@ toronto_tickets_clean |>
     col.names = c("Year", "Average daily number of tickets issued"),
     digits = 1
   )
-```
 
-```{r}
 ## Build graph ##
 toronto_tickets_clean |>
   ggplot(aes(x = offence_year, y = daily_avg_ticket_count)) +  
@@ -86,4 +79,3 @@ toronto_tickets_clean |>
   theme_minimal() + 
   scale_x_continuous(breaks = seq("2014", "2022", by = 1)) + 
   labs(x = "Year", y = "Daily Average of Tickets Issued")
-```
