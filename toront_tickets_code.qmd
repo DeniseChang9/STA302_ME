@@ -1,0 +1,48 @@
+---
+title: "ME2"
+format: html
+editor: visual
+---
+
+```{r}
+#### Preamble ####
+# Purpose: Get data on ticket and make a table for the amount of tickets issued per year from 2014 to 2022
+# Author: Denise Chang
+# Email: ddleletan@hotmail.com
+# Date: 14 January 2024
+
+#### Workspace setup ####
+library(knitr)
+library(janitor)
+library(lubridate)
+library(opendatatoronto)
+library(tidyverse)
+```
+
+```{r}
+#### Acquire ####
+# from # https://open.toronto.ca/dataset/police-annual-statistical-report-tickets-issued/
+
+toronto_tickets <-
+  list_package_resources("police-annual-statistical-report-tickets-issued") |>
+  filter(name == 
+    "Tickets Issued.csv") |>
+  get_resource()
+
+write_csv(
+  x = toronto_tickets,
+  file = "toronto_tickets.csv"
+)
+
+head(toronto_tickets)
+
+toronto_tickets_clean <-
+  clean_names(toronto_tickets)|>
+  select(offence_year, ticket_count) |>
+  group_by(offence_year) |>
+  summarise(ticket_count = sum(ticket_count))
+
+toronto_tickets_clean
+```
+
+\`\`\`{r}
