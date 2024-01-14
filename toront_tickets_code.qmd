@@ -18,6 +18,7 @@ library(lubridate)
 library(opendatatoronto)
 library(tidyverse)
 library(usethis)
+library(gitcreds)
 
 use_git_config(
   user.name = "Denise Chang",
