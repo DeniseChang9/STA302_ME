@@ -3,15 +3,16 @@ title: "ME2"
 format: html
 editor: visual
 ---
-  
+
+```{r}
 #| eval: false
 #### Preamble ####
 # Purpose: Get data on ticket and make a table for the average amount of tickets issued per day from 2014 to 2022
 # Author: Denise Chang
 # Email: ddleletan@hotmail.com
-# Date: 14 January 2024
-
+# Date: 14 January 2024 
 #### Workspace setup ####
+
 library(knitr)
 library(janitor)
 library(lubridate)
@@ -24,7 +25,9 @@ use_git_config(
   user.name = "Denise Chang",
   user.email = "ddleletan@hotmail.com"
 )
+```
 
+```{r}
 #### Acquire ####
 # from # https://open.toronto.ca/dataset/police-annual-statistical-report-tickets-issued/
 
@@ -57,7 +60,9 @@ write_csv(
 )
 
 head(toronto_tickets_clean)
+```
 
+```{r}
 #### Explore ####
 ## Build dataset ##
 toronto_tickets_clean <-
@@ -79,3 +84,6 @@ toronto_tickets_clean |>
   theme_minimal() + 
   scale_x_continuous(breaks = seq("2014", "2022", by = 1)) + 
   labs(x = "Year", y = "Daily Average of Tickets Issued")
+```
+
+
