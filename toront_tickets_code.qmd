@@ -17,6 +17,12 @@ library(janitor)
 library(lubridate)
 library(opendatatoronto)
 library(tidyverse)
+library(usethis)
+
+use_git_config(
+  user.name = "Denise Chang",
+  user.email = "ddleletan@hotmail.com"
+)
 ```
 
 ```{r}
