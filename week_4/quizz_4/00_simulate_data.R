@@ -2,7 +2,7 @@
 # Purpose: Simulate Data on heights measures by three friends
 # Author: Denise Chang
 # Email: ddleletan@hotmail.com
-# Date: 14 January 2024 
+# Date: 29 January 2024 
 # Prerequisite: None
 
 #### Workspace setup ####
