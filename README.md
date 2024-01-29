@@ -1,2 +1,2 @@
-# STA302_ME2
-Mini-Essay 2 for STA302
+# STA302_ME
+Collection of Mini-Essays for STA302
