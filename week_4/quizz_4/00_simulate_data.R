@@ -8,8 +8,8 @@
 #### Workspace setup ####
 library(tidyverse)
 
-#### Simulate Data ####
 
+#### Simulate Data ####
 set.seed(302) # random seed
 
 # errors in measurements
@@ -51,12 +51,8 @@ sim_data <-
   sim_data |>
   select(friend, edward, hugo, lucy)
 
-# save as CSV for 01_visualize_data.R
-write_csv(x = sim_data,
-          file = "week_4/quizz_4/sim_data.csv")
 
 #### Test Simulation ####
-
 # check that there are 20 measurements by each Edward, Hugo and Lucy
 sim_data$edward |> length() == 20
 sim_data$hugo |> length() == 20
@@ -75,3 +71,6 @@ sim_data$lucy |> min() >= 161 - lucy_error
 sim_data$lucy |> max() <= 180 + lucy_error
 
 
+#### Save CSV file ####
+write_csv(x = sim_data,
+          file = "week_4/quizz_4/sim_data.csv")
