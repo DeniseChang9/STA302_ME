@@ -14,7 +14,7 @@ set.seed(302) # random seed
 
 # errors in measurements
 hugo_error <- 4
-edward_error <- 4
+edward_error <- 3
 lucy_error <- 2
 random_error <- 1
 
