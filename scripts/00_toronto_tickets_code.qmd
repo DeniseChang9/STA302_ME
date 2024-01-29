@@ -85,5 +85,3 @@ toronto_tickets_clean |>
   scale_x_continuous(breaks = seq("2014", "2022", by = 1)) + 
   labs(x = "Year", y = "Daily Average of Tickets Issued")
 ```
-
-
