@@ -51,6 +51,10 @@ sim_data <-
   sim_data |>
   select(friend, edward, hugo, lucy)
 
+# save as CSV for 01_visualize_data.R
+write_csv(x = sim_data,
+          file = "week_4/quizz_4/sim_data.csv")
+
 #### Test Simulation ####
 
 # check that there are 20 measurements by each Edward, Hugo and Lucy
