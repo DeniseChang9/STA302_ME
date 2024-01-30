@@ -10,28 +10,16 @@ format: pdf
  Retrieved from https://doi.org/10.1056/nejmsa1300625 
 
 # Day 1: Transcribe Introduction
-
 A considerable body of research suggests that some surgeon have better results than others. Early studies of coronary-artery bypass surgery showed wide variation in risk-adjusted patient mortality across surgeons; studies of other procedures and other outcomes have shown similar variation among surgeons. Efforts to reduce such variation have focused primarily on improving perioperative care. For example, the Surgical Care Improvement Project and related pay-for-performance have provided financial incentives to increase surgeons' compliance with evidence-based practices related to prophylaxis against surgical-site infection and venous thromboembolism. As of this writing, however, there is little evidence that such initiatives have improved outcomes overall or have reduced the variation in outcomes across surgeons.
 
 In many procedures, the technical skill of the operating surgeon may be a more important determinant of outcomes than perioperative care. A high level of surgical skill may be essential in preventing intraoperative problems such as bleeding or tissue devascularization and may be associated with more precise reconstruction in cardiovascular or gastrointestinal surgery, possibly reducing the risk of anastomotic complications (e.g., thrombosis and leak, respectively). A high level of skill may also be associated with shorter operations, which are important in light of research linking prolonged operating times to increased risks of certain types of complications such as infection and venous thromboembolism. The importance of surgical skill may be inferred from studies assessing potential surrogate variables, including procedure volume and subspecialty training. As of this writing, however, few studies have directly assessed the technical skill of practicing surgeons, and to our knowledge none have linked the level of surgical skill to clinical outcomes.
 
 We conducted a population-based study of complications after gastric bypass surgery, a common but complex procedure for which outcomes have been shown to vary widely according to the surgeon. We first rated the technical skill of 20 practicing bariatric surgeons, as judged anonymously by their peers. We then examined the relationship between the surgeons' technical skill and their risk-adjusted complication rates.
 
-
 # Day 2: Rewrite Introduction
-
-Previous research highlights the variation in results 
-many variation
-counter by focusing on perioperative care
-little evidence proving its effectiveness
-maybe it's surgeon skill
-no assessment made
-study on gastric bypass surgery
-evaluated 20 practicing bariatric surgeons
-goal : relationship between technical skill and risk-adjusted complication rates. 
+Improving perioperative care has been the main focus of surgeons in recent years in attempt to counter the variation in risk-adjusted patient mortality. This method has little evidence proving its effectiveness in correcting the variation, leading researchers to consider other factors that may contribute to the difference in surgeons' results. In this paper, we investigate surgeons' technical skill as a potential factor. By evaluating the technical skill of 20 practicing bariatic surgeons, we examine the relationship between technical skill and risk-adjusted complication rates.
 
 # Day 3: Transcribe Abstract
-
 Clinical outcomes after many complex surgical procedures vary widely across hospitals and surgeons. Although it has been assumed that the proficiency of the operating surgeon is an important factor underlying such variation, empirical data are lacking on the relationships between technical skill and postoperative outcomes.
 
 We conducted a study involving 20 bariatric surgeons in Michigan who participated in a statewide collaborative improvement program. Each surgeon submitted a single representative videotape of himself or herself performing a laparoscopic gastric bypass. Each videotape was rated in various domains of technical skill on a scale of 1 to 5 (with higher scores indicating more advanced skill) by at least 10 peer surgeons who were unaware of the identity of the operating surgeon. We then assessed relationships between these skill ratings and risk-adjusted complication rates, using data from a prospective, externally audited, clinical-outcomes registry involving 10,343 patients.
@@ -41,12 +29,17 @@ Mean summary ratings of technical skill ranged from 2.6 to 4.8 across the 20 sur
 The technical skill of practicing bariatric surgeons varied widely, and greater skill was associated with fewer postoperative complications and lower rates of reoperation, readmission, and visits to the emergency department. Although these findings are preliminary, they suggest that peer rating of operative skill may be an effective strategy for assessing a surgeon's proficiency.
 
 # Day 4: Rewrite Abstract
-
+Clinical outcomes tend to vary widely between surgeons and hospitals. In this paper, we conduct a study involving 20 bariatic surgeons, each submitting a video of a laparoscopic gastric bypass for technical review by peer surgeons. We find that greater technical skills results with fewer postoperative complications. This study is relevant to future surgeon training by suggesting peer rating of operative skill as a strategy for assessing proficiency. 
 
 # Day 5: Rewrite Abstract with Popular Words
-
+People's end situation change a lot between doctors and hospitals. In this paper, we do a study with 20 doctors, each working on a doctor art while being watched by other doctors. We find that greater doctor art leads to fewer bad ends. This study is good to future doctor training by suggesting other doctors watching a doctor do doctor art to be better at it. 
 
 # Day 6: Three Well-Done Points
+One of the points I think was well-done in this paper is the organization and the coverage of the abstract. The abstract was separated into smaller paragraphs with sub-headings, making it easier for readers to understand the content and to find specific information quickly. The abstract did a good job giving the readers a complete overview of the context of the study, its objectives, approach, and findings, while always staying general enough, so that the readers can learn more throughout the paper. 
 
+Another point I find was well-done is the description of the data collection in the methods section. The paper is very specific and elaborates a lot on how the peer evaluations were collected. An element that I find nicely specific about this section is that the authors made sure to go over the bariatic surgeons' profiles by specifying their home state and that they are volunteers for this study. The authors also made sure to justify why the videos were cut for the peer reviews, and provided data on the length and content of the peer reviews, which I was surprised to find since I wouldn't have thought of including it, but made a lot of sense in this context.
+
+The most striking part of this study that I thought was well-done is the last paragraph of the discussion section, where the authors go over the human limitations of the importance of this study. I liked that the author recognizes that, even by singling out a surgeon's technical skill as a factor influencing postoperative complications, there may never be a way to counter this factor, as skill can be related to talent. I really liked this part since it was not only discussion limitations of the study, it was also discussing limitations on the problem as a whole, which brings this reflection to a higher level. 
 
 # Day 7: One Point to Improve
+One thing I did not like about this paper is that it was only accessible to a specialized audience. Throughout the reading of this study, the authors used many specific medical terms such as "bariatic", "anastomotic" and "thromboembolism". These terms are usually understood by those with backgrounds in health sciences, which the median member of the public would not have. It was possible to understand the study fully with extensive research on the side, making it less accessible for an unspecialized audience. 
