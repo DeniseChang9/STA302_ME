@@ -1,0 +1,52 @@
+---
+title: "Mini-Essay 4 "
+author: "Denise Chang"
+date: today
+date-format: long
+format: pdf
+---
+
+**Prerequisite Paper: Surgical Skill and Complication Rates after Bariatric Surgery**
+ Retrieved from https://doi.org/10.1056/nejmsa1300625 
+
+# Day 1: Transcribe Introduction
+
+A considerable body of research suggests that some surgeon have better results than others. Early studies of coronary-artery bypass surgery showed wide variation in risk-adjusted patient mortality across surgeons; studies of other procedures and other outcomes have shown similar variation among surgeons. Efforts to reduce such variation have focused primarily on improving perioperative care. For example, the Surgical Care Improvement Project and related pay-for-performance have provided financial incentives to increase surgeons' compliance with evidence-based practices related to prophylaxis against surgical-site infection and venous thromboembolism. As of this writing, however, there is little evidence that such initiatives have improved outcomes overall or have reduced the variation in outcomes across surgeons.
+
+In many procedures, the technical skill of the operating surgeon may be a more important determinant of outcomes than perioperative care. A high level of surgical skill may be essential in preventing intraoperative problems such as bleeding or tissue devascularization and may be associated with more precise reconstruction in cardiovascular or gastrointestinal surgery, possibly reducing the risk of anastomotic complications (e.g., thrombosis and leak, respectively). A high level of skill may also be associated with shorter operations, which are important in light of research linking prolonged operating times to increased risks of certain types of complications such as infection and venous thromboembolism. The importance of surgical skill may be inferred from studies assessing potential surrogate variables, including procedure volume and subspecialty training. As of this writing, however, few studies have directly assessed the technical skill of practicing surgeons, and to our knowledge none have linked the level of surgical skill to clinical outcomes.
+
+We conducted a population-based study of complications after gastric bypass surgery, a common but complex procedure for which outcomes have been shown to vary widely according to the surgeon. We first rated the technical skill of 20 practicing bariatric surgeons, as judged anonymously by their peers. We then examined the relationship between the surgeons' technical skill and their risk-adjusted complication rates.
+
+
+# Day 2: Rewrite Introduction
+
+Previous research highlights the variation in results 
+many variation
+counter by focusing on perioperative care
+little evidence proving its effectiveness
+maybe it's surgeon skill
+no assessment made
+study on gastric bypass surgery
+evaluated 20 practicing bariatric surgeons
+goal : relationship between technical skill and risk-adjusted complication rates. 
+
+# Day 3: Transcribe Abstract
+
+Clinical outcomes after many complex surgical procedures vary widely across hospitals and surgeons. Although it has been assumed that the proficiency of the operating surgeon is an important factor underlying such variation, empirical data are lacking on the relationships between technical skill and postoperative outcomes.
+
+We conducted a study involving 20 bariatric surgeons in Michigan who participated in a statewide collaborative improvement program. Each surgeon submitted a single representative videotape of himself or herself performing a laparoscopic gastric bypass. Each videotape was rated in various domains of technical skill on a scale of 1 to 5 (with higher scores indicating more advanced skill) by at least 10 peer surgeons who were unaware of the identity of the operating surgeon. We then assessed relationships between these skill ratings and risk-adjusted complication rates, using data from a prospective, externally audited, clinical-outcomes registry involving 10,343 patients.
+
+Mean summary ratings of technical skill ranged from 2.6 to 4.8 across the 20 surgeons. The bottom quartile of surgical skill, as compared with the top quartile, was associated with higher complication rates (14.5% vs. 5.2%, P<0.001) and higher mortality (0.26% vs. 0.05%, P=0.01). The lowest quartile of skill was also associated with longer operations (137 minutes vs. 98 minutes, P<0.001) and higher rates of reoperation (3.4% vs. 1.6%, P=0.01) and readmission (6.3% vs. 2.7%) (P<0.001).
+
+The technical skill of practicing bariatric surgeons varied widely, and greater skill was associated with fewer postoperative complications and lower rates of reoperation, readmission, and visits to the emergency department. Although these findings are preliminary, they suggest that peer rating of operative skill may be an effective strategy for assessing a surgeon's proficiency.
+
+# Day 4: Rewrite Abstract
+
+
+# Day 5: Rewrite Abstract with Popular Words
+
+
+# Day 6: Three Well-Done Points
+
+
+# Day 7: One Point to Improve
