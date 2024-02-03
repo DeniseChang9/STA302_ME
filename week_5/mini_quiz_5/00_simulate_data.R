@@ -1,7 +1,7 @@
 #### Preamble ####
 # Purpose: Simulate data on Canadian Prime Ministers
 # Author: Denise Chang
-# Date: 14 January 2024 
+# Date: 2 February 2024 
 # Prerequisite: None
 
 
