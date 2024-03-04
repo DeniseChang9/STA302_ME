@@ -1,0 +1,15 @@
+---
+title: "Dealing with Missing Data"
+author: "Denise Chang"
+date: today
+date-format: long
+format: pdf
+---
+
+## Missing Data
+
+## Missing Data Completely at Random
+
+## Missing Data at Random
+
+## Missing Data Not at Random
