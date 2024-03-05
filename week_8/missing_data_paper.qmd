@@ -1,10 +1,12 @@
 ---
 title: "Dealing with Missing Data"
 author: "Denise Chang"
+thanks: "Code for this paper is available at: https://github.com/DeniseChang9/STA302_ME/tree/c2e1c41a51b02842b02ae4526b28661be1833c69/week_8"
 date: today
 date-format: long
 format: pdf
 number-sections: true
+bibliography: references.bib
 ---
 
 # What is Missing Data?
@@ -30,3 +32,6 @@ Imputing the mean implies evaluating the mean of a second dataset composed of th
 
 ## Multiple Imputation
 Conducting multiple imputations is similar as the previous method, but involves many more potential datasets and averaging the results of these datasets to imput into the original dataset. This method considers more factors, but is also prone to overestimating of underestimating the actual values due to biases.
+
+
+Before concluding this paper, I would like to thank Gavin Crooks for taking the time to review the content of this paper and for offering valuable suggestions for improving this work. I would also like to highlight that the contents of this paper is heavily inspired by Alexander's textbook "Telling Stories with Data" [@Rohan].
