@@ -1,12 +1,12 @@
 ---
 title: "Dealing with Missing Data"
 author: "Denise Chang"
-thanks: "Code for this paper is available at: https://github.com/DeniseChang9/STA302_ME/tree/c2e1c41a51b02842b02ae4526b28661be1833c69/week_8"
+thanks: "Code for this paper is available at: https://github.com/DeniseChang9/STA302_ME.git"
 date: today
 date-format: long
 format: pdf
 number-sections: true
-bibliography: references.bib
+bibliography: week_4/mini_essay_4/references.bib
 ---
 
 # What is Missing Data?
