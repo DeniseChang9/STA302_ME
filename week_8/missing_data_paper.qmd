@@ -1,12 +1,13 @@
 ---
-title: "Dealing with Missing Data"
+title: "What is Missing Data and How Should They be Handled?"
 author: "Denise Chang"
 thanks: "Code for this paper is available at: https://github.com/DeniseChang9/STA302_ME.git"
 date: today
 date-format: long
+abstract: "Researchers collect data and translate them into findings about the real world. No matter the data acquisition method, researchers always find themselves having to deal with missing data, which challenges them to find a handling method to induce the least amount of bias possible. This paper defines missing data, and discusses main categories of the missing data. This paper also discusses differnet ways to handle missing data, while emphasizing the important of simulations while deciding which method to adopt."
 format: pdf
 number-sections: true
-bibliography: week_4/mini_essay_4/references.bib
+bibliography: references.bib
 ---
 
 # What is Missing Data?
@@ -19,7 +20,7 @@ Data that is Missing Completely At Random is when the missing data is independen
 Data that is Missing At Random is when there are missing values in a studied variables, and these values are related to another observed variable. For example, let's consider a highschool survey in december to evaluate the students' favourite subject in each grade. The missing data in this situation could be related to the students' age since the older students are busier balancing between academics and their university applications. In this example, the data is still missing at random, but there are more missing data in the older students than the younger ones. MAR data is common, but is not ideal. A bias in inference and analysis can happen since the studies population is unevenly represented. 
 
 ## Missing Data Not At Random (MNAR)
-Data that is Missing Not At Random is when there are missing values in a studied variable, and these values is related to an unobserved variable, or related to the missing variable itself. For example, let's consider a survey on US citizens' views on scientific methods In this example, there may be missing data from those who opt out of the study since they don't believe in the purpose of the research. The people who don't believe in scientific methods tend to not participate in surveys since they don't trust or believe the validity of these researches. This represents a scenario of MNAR data as the bias is directly related to the studied variable. 
+Data that is Missing Not At Random is when there are missing values in a studied variable, and these values is related to an unobserved variable, or related to the missing variable itself. For example, let's consider a survey on US citizens' views on scientific methods. In this example, there may be missing data from those who opt out of the study since they don't believe in the purpose of the research. The people who don't believe in scientific methods tend to not participate in surveys since they don't trust or believe the validity of these researches. This represents a scenario of MNAR data as the bias is directly related to the studied variable. 
 
 # Handling Missing Data
 No matter the type of missing data, all missing data affect study conclusions and inferences as the arguments presented become less generalized. When evaluating the data, data scientists must decide on how to deal with missing data based on the context of the study. From a data perspective, common handling methods are dropping observations with missing data, imputing the mean of observations without missing data and using multiple imputations.
@@ -33,5 +34,10 @@ Imputing the mean implies evaluating the mean of a second dataset composed of th
 ## Multiple Imputation
 Conducting multiple imputations is similar as the previous method, but involves many more potential datasets and averaging the results of these datasets to imput into the original dataset. This method considers more factors, but is also prone to overestimating of underestimating the actual values due to biases.
 
+## Choosing the Right Method
+At the end of the line, there is no right or wrong method to handle missing data. Missing data impacts studies and datasets differently depending on the direction of the study and on the other observed variables. Hence, there is no universal method that can be applied to all missing data sets as each case is unique. This is where the importance of simulating the data comes in. By simulating the dataset, researchers can estimate how each of the handling methods biases the results, and choose the method that comes the closest to the actual simulated value.  
 
-Before concluding this paper, I would like to thank Gavin Crooks for taking the time to review the content of this paper and for offering valuable suggestions for improving this work. I would also like to highlight that the contents of this paper is heavily inspired by Alexander's textbook "Telling Stories with Data" [@Rohan].
+# Acknowledgements
+I would like to thank Gavin Crooks for taking the time to review the contents of this paper and for offering valuable suggestions to improve this work. I would also like to acknowledge that the contents of this paper is heavily inspired by Alexander's textbook "Telling Stories with Data" [@Rohan].
+
+# References
