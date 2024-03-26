@@ -12,4 +12,4 @@ clean_data <-
   clean_names(raw_data) |>
   select(religion)
 
-head(clean_data)
+write_csv(clean_data, file = "mini_essay_12/input/clean_data.csv")
