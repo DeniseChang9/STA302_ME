@@ -6,10 +6,10 @@ library(shiny)
 library(dplyr)
 library(ggplot2)
 library(readr)
-library(here)
+library(rsconnect)
 
 # Load data
-Auschwitz_Death_Certificates_1942_1943_Auschwitz <- read_csv(here("mini_essay_12/input/raw_data.csv"))
+Auschwitz_Death_Certificates_1942_1943_Auschwitz <- read_csv("raw_data.csv")
 
 # Process the data to count victims by category
 victims_count <- Auschwitz_Death_Certificates_1942_1943_Auschwitz |>
