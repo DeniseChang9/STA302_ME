@@ -32,5 +32,5 @@ Every row in the dataset represents one victim who was murdered at Auschwitz. Th
 
 It is important to note that this dataset is still far from representing all of the victims of the Holocaust at Auschwitz. Towards the end of the war, Nazi Germany attempted to erase all traces of their acts in the concentration camps by destroying physical evidence. Many death certificates were destroyed in the process of this, meaning there is a large amount of victims who are unidentified to this day and is not represented in the dataset. 
 
-## Functionality of the App
+## App Features
 This app is an interactive graph and an interactive table. Users can choose one or multiple religions and to modify the histogram and to view the number of victims of the selected religions in Auschwitz during the Holocaust. Based on the filtered list, there is also an interactive table available which presents the same information as described in the dataset. The table can be sorted in ascending or descending order of each variable. 
