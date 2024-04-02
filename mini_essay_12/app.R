@@ -42,7 +42,7 @@ server <- function(input, output) {
   output$plot <- renderPlot({
     ggplot(filtered_data(), aes(x = Religion, fill = Religion)) +
       geom_bar() +
-      labs(title = "Number of Holocaust Victims by Ethnicity", x = "Ethnicity", y = "Count") +
+      labs(title = "Number of Holocaust Victims by Religion", x = "Religion", y = "Count") +
       theme(axis.text.x = element_text(angle = 45, hjust = 1))
   })
   

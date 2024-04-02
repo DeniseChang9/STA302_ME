@@ -1,0 +1,38 @@
+---
+title: "Remembering the Holocaust"
+subtitle: "Shedding Light on its Victims"
+author: "Denise Chang"
+thanks: "Code and data are available at: https://github.com/DeniseChang9/STA302_ME2/tree/ac734acf9636a8e23f0f2a8ca69f48f88a1caf05 The published app is available at: https://eaqozf-denise-chang.shinyapps.io/Holocaust_victim/"
+date: today
+date-format: long
+abstrat: ""
+format: pdf
+number-sections: true
+editor: visual
+---
+
+# Background
+The Holocaust was a systematic persecution and genocide by Hitler's Nazi Germany and its collaborators which mainly targeted European Jews and marginalized groups during World War II. As part of their goal to "purify" Germany, Nazi Germany especially persecuted Jews based on prejudices, making Jews the scapegoat of Germany's socioeconomic difficulties. Auschwitz, officially known as Auschwitz-Birkenau, was the largest and one of the deadliest of the Nazi concentration and extermination camps. Located in German-occupied Poland, it became a major site of the Nazis' "Final Solution to the Jewish Question", a policy of deliberate and systematic genocide.
+
+## The Importance of Remembering
+The atrocities committed at Auschwitz are among the darkest chapters of human history. They serve as a reminder of what can happen when hatred and prejudice over empathy and compassion. Though the persecutors are now part of history, it is important to know that their actions were not unique to them; instead, they were part of human nature. Remembering these events compels us to confront uncomfortable truths about human nature and society's capacity for evil. It teaches us the importance of vigilance, the need to stand against injustice, and the responsibility to protect the vulnerable.
+
+## Known Works about World War II
+Given the importance of remembering this tragic event, many productions have been created in hope to shed light on World War II. These productions attempts to communicate the reality of World War II and its impacts. For example, the movie "The Pianist" (2002) directed by Roman Polanski follows a Polish-Jewish pianist through his struggles and survival of the Warsaw Ghetto. Another famous example is "The Diary of a Young Girl" by Anne Frank. This diary is one of the most widespread literary productions portraying the Jewish experience during the Holocaust.
+
+# Shiny App: Holocaust Victims
+## Motivation
+The published app's goal is to honor victims of Auschwitz as individuals by category and religion. Each victim had their own name, their own background and their own stories. Remembering them is a recognition of their suffering and an acknowledgment that each life lost represents a story that ended too soon. By recalling their names, we honor their humanity and ensure they are remembered as individuals, not just as one of the many victims of a tragic event.
+
+## Data
+The data used to create this app was found online from the United States Holocaust Memorial Museum's Holocaust Survivors and Victims Database. This database contains records on the people murdered at Auschwitz-Birkenau during World War II, which includes but is not limited to Jews, Poles, prisoners of war, political prisoners and people with disabilities. This database is a compilation of information found at the Memorial Museum and from other organizations.
+
+
+Every row in the dataset represents one victim who was murdered at Auschwitz. The following columns describes their respective last name, first name(s), date of birth, date of death, birthplace, residence and religion. These information were gathered from the death certificates of each victim.
+
+It is important to note that this dataset is still far from representing all of the victims of the Holocaust at Auschwitz. Towards the end of the war, Nazi Germany attempted to erase all traces of their acts in the concentration camps by destroying physical evidence. Many death certificates were destroyed in the process of this, meaning there is a large amount of victims who are unidentified to this day and is not represented in the dataset. 
+
+## Functionality of the App
+What does the app do lmao (not much tbh)
+
+
