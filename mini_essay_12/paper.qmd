@@ -2,7 +2,7 @@
 title: "Remembering the Holocaust"
 subtitle: "Shedding Light on its Victims"
 author: "Denise Chang"
-thanks: "Code and data are available at: https://github.com/DeniseChang9/STA302_ME2/tree/ac734acf9636a8e23f0f2a8ca69f48f88a1caf05 The published app is available at: https://eaqozf-denise-chang.shinyapps.io/Holocaust_victim/"
+thanks: "Code and data are available at: https://github.com/DeniseChang9/STA302_ME2/ The published app is available at: https://eaqozf-denise-chang.shinyapps.io/Holocaust_victim/"
 date: today
 date-format: long
 abstrat: ""
